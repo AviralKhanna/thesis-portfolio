@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Build and apply your personal investment philosophy." />
+    <title>Thesis — Investment Intelligence</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <aside class="sidebar">
+        <a class="brand" href="#dashboard" data-route="dashboard"><span class="brand-mark">T</span><span>Thesis</span></a>
+        <p class="sidebar-label">Workspace</p>
+        <nav id="nav">
+          <a href="#dashboard" data-route="dashboard"><span>⌂</span>Overview</a>
+          <a href="#knowledge" data-route="knowledge"><span>◫</span>Knowledge</a>
+          <a href="#philosophy" data-route="philosophy"><span>◇</span>My philosophy</a>
+          <a href="#analyze" data-route="analyze"><span>◎</span>Analyze</a>
+          <a href="#journal" data-route="journal"><span>□</span>Decision journal</a>
+        </nav>
+        <div class="sidebar-footer">
+          <div class="local-pill"><i></i> Local workspace</div>
+          <button class="text-button" id="exportBtn">Export workspace</button>
+          <label class="text-button file-button">Import workspace<input id="importInput" type="file" accept="application/json" /></label>
+        </div>
+      </aside>
+      <main>
+        <header class="topbar">
+          <button class="mobile-menu" id="menuBtn" aria-label="Toggle menu">☰</button>
+          <div><span class="eyebrow">Personal investment intelligence</span><h1 id="pageTitle">Overview</h1></div>
+          <a class="primary-button small" href="#analyze">New analysis <span>↗</span></a>
+        </header>
+        <div id="app" class="page"></div>
+      </main>
+    </div>
+    <div id="toast" class="toast" role="status"></div>
+    <script type="module" src="./src/app.js"></script>
+  </body>
+</html>

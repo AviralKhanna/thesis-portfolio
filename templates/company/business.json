@@ -1,0 +1,43 @@
+{
+  "businessModel": {
+    "revenueMechanism": "",
+    "costStructure": "",
+    "reinvestmentRequirements": "",
+    "evidence": []
+  },
+  "segments": [],
+  "revenueMix": [],
+  "geographies": [],
+  "customers": [
+    {
+      "group": "",
+      "payer": "",
+      "user": "",
+      "purchaseInfluencer": "",
+      "reasonToBuy": "",
+      "switchingTrigger": "",
+      "switchingCost": "unknown",
+      "priceSensitivity": "unknown",
+      "repeatDemand": "unknown",
+      "concentration": "unknown",
+      "channelPower": "unknown",
+      "evidence": [],
+      "confidence": "insufficient"
+    }
+  ],
+  "moat": {
+    "brand": { "assessment": "missing", "economicMechanism": "", "beneficiary": "", "evidence": [], "counterEvidence": [], "replicationRequirements": [], "replicationTime": "unknown", "replicationCost": "unknown", "replicationFailureReasons": [], "observedDurability": "unknown", "confidence": "insufficient" },
+    "distribution": { "assessment": "missing", "economicMechanism": "", "beneficiary": "", "evidence": [], "counterEvidence": [], "replicationRequirements": [], "replicationTime": "unknown", "replicationCost": "unknown", "replicationFailureReasons": [], "observedDurability": "unknown", "confidence": "insufficient" },
+    "switchingCosts": { "assessment": "missing", "economicMechanism": "", "beneficiary": "", "evidence": [], "counterEvidence": [], "replicationRequirements": [], "replicationTime": "unknown", "replicationCost": "unknown", "replicationFailureReasons": [], "observedDurability": "unknown", "confidence": "insufficient" },
+    "scaleOrCost": { "assessment": "missing", "economicMechanism": "", "beneficiary": "", "evidence": [], "counterEvidence": [], "replicationRequirements": [], "replicationTime": "unknown", "replicationCost": "unknown", "replicationFailureReasons": [], "observedDurability": "unknown", "confidence": "insufficient" },
+    "technologyOrPatents": { "assessment": "missing", "economicMechanism": "", "beneficiary": "", "evidence": [], "counterEvidence": [], "replicationRequirements": [], "replicationTime": "unknown", "replicationCost": "unknown", "replicationFailureReasons": [], "observedDurability": "unknown", "confidence": "insufficient" },
+    "networkEffects": { "assessment": "missing", "economicMechanism": "", "beneficiary": "", "evidence": [], "counterEvidence": [], "replicationRequirements": [], "replicationTime": "unknown", "replicationCost": "unknown", "replicationFailureReasons": [], "observedDurability": "unknown", "confidence": "insufficient" },
+    "regulatoryAdvantage": { "assessment": "missing", "economicMechanism": "", "beneficiary": "", "evidence": [], "counterEvidence": [], "replicationRequirements": [], "replicationTime": "unknown", "replicationCost": "unknown", "replicationFailureReasons": [], "observedDurability": "unknown", "confidence": "insufficient" }
+  },
+  "industryDrivers": [],
+  "competitors": [],
+  "marketPosition": { "assessment": "missing", "marketShare": [], "evidence": [], "counterEvidence": [], "confidence": "insufficient" },
+  "secondOrderEffects": [
+    { "trigger": "", "directEffect": "", "competitorResponse": "", "customerResponse": "", "channelResponse": "", "capitalAllocationResponse": "", "longTermEquilibrium": "", "evidence": [], "confidence": "insufficient" }
+  ]
+}

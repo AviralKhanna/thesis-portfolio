@@ -1,0 +1,69 @@
+{
+  "claims": [
+    {
+      "id": "claim-1",
+      "claim": "ITC reaches 28 crore Indian households and its new FMCG businesses have annual consumer spend above ₹37,000 crore.",
+      "topic": "consumer reach",
+      "date": "2026-03-31",
+      "type": "management_claim",
+      "status": "partially_verified",
+      "source": "ITC Report and Accounts 2026, pp.3-5",
+      "independentCorroboration": false,
+      "contradicted": false,
+      "stale": false,
+      "note": "Reported by the company; useful for scale, but not independent evidence of customer loyalty or economic moat."
+    },
+    {
+      "id": "claim-2",
+      "claim": "ITC's distribution network reaches nearly seven million outlets, more than 40% directly, and UNNATI serves over 800,000 outlets.",
+      "topic": "distribution moat",
+      "date": "2026-03-31",
+      "type": "management_claim",
+      "status": "verified_by_company_records",
+      "source": "ITC Report and Accounts 2026, pp.86-87",
+      "independentCorroboration": false,
+      "contradicted": false,
+      "stale": false,
+      "note": "Strong evidence of reach; outlet count alone does not prove exclusivity, throughput or pricing power."
+    },
+    {
+      "id": "claim-3",
+      "claim": "ITC holds leading positions in branded atta, bridge snacks, cream biscuits and notebooks.",
+      "topic": "market position",
+      "date": "2026-03-31",
+      "type": "management_claim",
+      "status": "supported_by_cited_industry_data",
+      "source": "ITC Report and Accounts 2026, p.75, citing NielsenIQ and Kantar",
+      "independentCorroboration": true,
+      "contradicted": false,
+      "stale": false,
+      "note": "Category-specific rankings are stronger than a generic FMCG leadership claim; full multi-year share history remains absent."
+    },
+    {
+      "id": "claim-4",
+      "claim": "The sharp increase in cigarette taxation may strengthen illicit trade and disrupt legal-industry volumes.",
+      "topic": "cigarette regulation",
+      "date": "2026-02-01",
+      "type": "management_claim",
+      "status": "unverified_forward_risk",
+      "source": "ITC Report and Accounts 2026, pp.69-73; ITC FY26 results statement",
+      "independentCorroboration": false,
+      "contradicted": false,
+      "stale": false,
+      "note": "The tax change is factual; the magnitude of legal-volume substitution is a forward-looking management assertion requiring FY27 evidence."
+    },
+    {
+      "id": "claim-5",
+      "claim": "Recent digital-first and organic FMCG businesses have scaled to more than ₹1,350 crore annualised revenue.",
+      "topic": "portfolio innovation",
+      "date": "2026-03-31",
+      "type": "management_claim",
+      "status": "verified_by_company_records",
+      "source": "ITC Report and Accounts 2026, pp.74-75",
+      "independentCorroboration": false,
+      "contradicted": false,
+      "stale": false,
+      "note": "Revenue scale is not equivalent to profitability or adequate return on acquisition cost."
+    }
+  ]
+}

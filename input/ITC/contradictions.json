@@ -1,0 +1,34 @@
+{
+  "contradictions": [
+    {
+      "id": "ITC-C01",
+      "topic": "diversification",
+      "claimA": { "text": "ITC presents itself as a diversified consumer platform with 30-plus brands and very broad household reach.", "type": "management_claim", "source": "ITC Report and Accounts 2026, pp.3-5, 74-87", "date": "2026-03-31" },
+      "claimB": { "text": "Cigarettes contributed approximately 82% of FY26 segment result before unallocated items.", "type": "audited_fact", "source": "ITC Report and Accounts 2026, p.325", "date": "2026-03-31" },
+      "assessment": "narrative is broader than current profit economics",
+      "materiality": "very high",
+      "note": "Revenue diversification is genuine, but profit diversification remains limited.",
+      "monitor": "FMCG-Others share of segment profit and margin"
+    },
+    {
+      "id": "ITC-C02",
+      "topic": "growth quality",
+      "claimA": { "text": "FY26 continuing revenue grew 10.2% and the portfolio reported broad-based operating momentum.", "type": "management_claim", "source": "ITC FY26 results and annual report", "date": "2026-03-31" },
+      "claimB": { "text": "Continuing PAT grew 4.9%; cigarette margin contracted and Paperboards segment result fell 14.6%.", "type": "audited_fact", "source": "ITC Report and Accounts 2026, pp.253, 325", "date": "2026-03-31" },
+      "assessment": "revenue growth did not convert proportionately into profit",
+      "materiality": "high",
+      "note": "Input cost and segment-mix pressure matter more than headline revenue.",
+      "monitor": "segment margins and continuing PAT growth"
+    },
+    {
+      "id": "ITC-C03",
+      "topic": "cash generation",
+      "claimA": { "text": "ITC remains strongly cash generative and returned ₹18,271 crore in dividends during FY26.", "type": "audited_fact", "source": "ITC Report and Accounts 2026, pp.256-257", "date": "2026-03-31" },
+      "claimB": { "text": "CFO was below continuing PAT and inventory/biological assets absorbed ₹3,306 crore of cash.", "type": "audited_fact", "source": "ITC Report and Accounts 2026, p.256", "date": "2026-03-31" },
+      "assessment": "strong absolute cash generation with a working-capital qualification",
+      "materiality": "medium",
+      "note": "Not a contradiction in accounting terms; it prevents an unqualified 'excellent cash conversion' conclusion.",
+      "monitor": "inventory reversal and CFO/PAT"
+    }
+  ]
+}

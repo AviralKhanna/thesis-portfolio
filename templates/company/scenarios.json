@@ -1,0 +1,9 @@
+{
+  "bull": { "probability": null, "drivers": [], "milestones": [], "valuation": "", "confidence": "insufficient" },
+  "base": { "probability": null, "drivers": [], "milestones": [], "valuation": "", "confidence": "insufficient" },
+  "bear": { "probability": null, "drivers": [], "milestones": [], "valuation": "", "confidence": "insufficient" },
+  "thesisBreakers": [],
+  "rankedRisks": [
+    { "risk": "", "probability": null, "probabilityLabel": "uncalibrated", "impact": "unknown", "urgency": "unknown", "timeHorizon": "", "detectability": "", "evidence": [], "confidence": "insufficient", "monitor": "", "monitorFrequency": "" }
+  ]
+}

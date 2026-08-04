@@ -1,0 +1,34 @@
+{
+  "investmentStatus": "WATCH - INVESTABLE BUSINESS, DECISION NOT COMPLETE",
+  "primaryConcern": "About 82% of segment profit still comes from cigarettes just as February 2026 taxation sharply increased; legal-volume elasticity is unproven.",
+  "highestPriority": "Track FY27 cigarette volumes/margins and verify whether FMCG-Others margin expansion can offset tobacco concentration.",
+  "businessQuality": "High cash generation, powerful distribution and brands; quality is reduced by tobacco regulation and conglomerate complexity.",
+  "customerEconomics": "Repeat demand and brand habit are strongest in cigarettes; other FMCG has broad repeat demand but low switching costs and high competition.",
+  "moatAndReplicability": "Distribution, brand portfolio, agri sourcing and integrated capabilities are difficult to reproduce together; replication time and cost are not precisely evidenced.",
+  "industryPosition": "Leadership in legal cigarettes and selected FMCG categories; full independent share history is missing.",
+  "managementQuality": "Strong disclosure, balance-sheet discipline and execution; non-cigarette capital-allocation returns require longer evidence.",
+  "capitalStructure": "Gross borrowings ₹2,186 crore versus more than ₹32,000 crore of current/non-current investments plus bank balances; economically net cash.",
+  "valuation": { "price": 285.7, "date": "2026-07-27", "method": "Market reference plus FY26 continuing EPS/book/dividend/FCF", "assumptions": ["Approximate market capitalisation ₹3.58 trillion", "FY26 continuing EPS ₹16.52", "FY26 dividend ₹14.50", "No SOTP premium assigned"], "range": "Reference P/E about 17.3x, P/B about 5.0x, dividend yield about 5.1%, approximate FCF yield 4.5%", "marginOfSafety": "Not established; cigarette tax elasticity and sum-of-parts value are unresolved" },
+  "investmentCase": [
+    "Cigarette franchise produces exceptional segment margins and finances dividends and diversification.",
+    "Distribution reaches nearly seven million outlets, with over 40% direct service and an 800,000-outlet digital retailer platform.",
+    "FMCG-Others grew revenue 10.5% and segment result 13.9%, demonstrating gradual operating leverage.",
+    "Balance sheet is net cash and FY26 approximate free cash flow was ₹16,281 crore.",
+    "Reference valuation offers a high dividend yield relative to many branded-consumer companies."
+  ],
+  "rejectionCase": [
+    "Cigarettes generate about 82% of segment profit; diversification is much greater in revenue than in economics.",
+    "February 2026 taxation creates material legal-volume, pricing and illicit-trade risk.",
+    "Continuing PAT grew only 4.9% against revenue growth of 10.2%, while cigarette and paper margins weakened.",
+    "Inventory absorbed ₹3,306 crore and CFO remained below continuing PAT.",
+    "High dividend payout limits internally retained capital; acquired and incubated FMCG businesses must prove adequate incremental returns."
+  ],
+  "neutralAssessment": "ITC is a strong cash-generative consumer platform whose present economics remain tobacco-led. The reference valuation is not obviously extreme, but the investment debate turns on post-tax-hike cigarette elasticity and whether FMCG-Others can compound profit faster than the cigarette franchise without destroying returns.",
+  "unknowns": ["FY27 legal cigarette volume elasticity", "Independent market-share changes", "Acquisition-level ROIC", "Maintenance versus growth capex", "Segment-level free cash flow", "Fully developed sum-of-parts valuation"],
+  "criticalUnknowns": ["Post-February-2026 cigarette volume and margin response", "Sustainable FMCG-Others EBITDA margin", "Reason for and reversibility of ₹3,306 crore inventory build", "Independent evidence of category-share gains", "Incremental ROCE on acquisitions and FMCG capex"],
+  "decisionQuestions": ["Can cigarette pricing offset the tax increase without accelerating illicit substitution?", "Will FMCG-Others profit compound above 12% while preserving brand investment?", "Is Paperboards' margin decline cyclical or structural?", "Does inventory normalise into FY27 cash flow?", "What SOTP value remains after applying a regulatory discount to cigarettes?", "Do new acquisitions earn above the cost of capital within three to five years?"],
+  "monitoringItems": ["Quarterly cigarette net revenue, volume commentary and segment margin", "FMCG-Others revenue, segment result and margin", "Inventory and CFO/PAT", "Paperboards segment margin", "Acquisition ARR and profitability", "Dividend payout and net cash", "Tax and illicit-trade enforcement developments"],
+  "valuationRequirement": "Require a scenario-based SOTP with a regulatory haircut, not a single consolidated P/E.",
+  "decisionReadiness": "MEDIUM - business understood, but tax response and independent peer evidence are incomplete.",
+  "finalView": "WATCH. Quality and cash returns are evident; purchase attractiveness depends on price and evidence that post-tax-hike cigarette economics remain resilient while FMCG-Others scales profitably."
+}

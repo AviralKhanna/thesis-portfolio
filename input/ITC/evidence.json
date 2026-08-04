@@ -1,0 +1,14 @@
+{
+  "long-term-mindset": { "result": "pass", "note": "Ten-year standalone history and continuing-operations reconstruction used; FY25 Hotels demerger gain excluded from operating trend.", "source": "ITC Report and Accounts 2026, PDF pp.253, 346-347" },
+  "qual-and-quant": { "result": "pass", "note": "Audited statements were combined with customer, distribution, segment, regulation, management and moat evidence.", "source": "ITC Report and Accounts 2026" },
+  "understand-business": { "result": "investigate", "note": "Business and segment economics are mapped, but independent customer, competitor and peer validation remains incomplete.", "source": "ITC Report and Accounts 2026, PDF pp.3-12, 69-87, 325" },
+  "annual-report-primary": { "result": "pass", "note": "FY26 Report and Accounts is the primary source.", "source": "input/ITC-Report-and-Accounts-2026.pdf" },
+  "mda-review": { "result": "pass", "note": "Management claims, risks, segment performance and outlook reviewed separately from audited facts.", "source": "ITC Report and Accounts 2026, PDF pp.64-113" },
+  "consolidated-default": { "result": "pass", "note": "Consolidated statements used for core metrics; standalone ten-year data used only as supplementary history.", "source": "ITC Report and Accounts 2026, PDF pp.252-258, 346-347" },
+  "roe-debt": { "result": "pass", "note": "Returns remain strong and the group retains large liquid investments; gross borrowings rose but do not create net leverage.", "source": "ITC Report and Accounts 2026, PDF p.252" },
+  "working-capital": { "result": "investigate", "note": "Inventory and biological assets absorbed ₹3,306 crore in FY26; driver and normalisation need monitoring.", "source": "ITC Report and Accounts 2026, PDF p.256" },
+  "ratio-context": { "result": "investigate", "note": "Segment mix makes generic peer comparison misleading; cigarette profit concentration and demerger-adjusted trends require context.", "source": "ITC Report and Accounts 2026, PDF pp.253, 325" },
+  "valuation-after-quality": { "result": "investigate", "note": "A dated market reference was reviewed only after business quality; valuation remains sensitive to cigarette regulation and sum-of-parts assumptions.", "source": "Value Research, 27 July 2026; ITC FY26 EPS" },
+  "valuation-caution": { "result": "pass", "note": "Valuation is treated as a range and current reference, not intrinsic-value precision.", "source": "Research framework" },
+  "checklist-evolves": { "result": "not_applicable", "note": "Process rule; not company-specific.", "source": "" }
+}

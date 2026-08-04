@@ -1,0 +1,14 @@
+{
+  "contradictions": [
+    {
+      "id": "contradiction-1",
+      "topic": "",
+      "claimA": { "text": "", "type": "management_claim", "source": "", "date": "" },
+      "claimB": { "text": "", "type": "audited_fact", "source": "", "date": "" },
+      "assessment": "unresolved",
+      "materiality": "unknown",
+      "note": "",
+      "monitor": ""
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "predictions": [
+    { "id": "ITC-P01", "claim": "FMCG-Others segment result margin will be at least 7.5% in FY27.", "createdAt": "2026-08-03", "targetDate": "2027-05-31", "metric": "FMCG-Others segment result margin", "operator": ">=", "target": 7.5, "probability": 60, "confidence": "medium", "status": "open", "outcome": "", "reviewedAt": "", "evidence": ["FY25 7.23%; FY26 7.45%"] },
+    { "id": "ITC-P02", "claim": "FY27 continuing PAT will grow year-on-year despite the cigarette tax reset.", "createdAt": "2026-08-03", "targetDate": "2027-05-31", "metric": "continuing PAT growth", "operator": ">", "target": 0, "probability": 60, "confidence": "low-medium", "status": "open", "outcome": "", "reviewedAt": "", "evidence": ["FY26 continuing PAT ₹21,018 crore", "Pricing power but unknown elasticity"] },
+    { "id": "ITC-P03", "claim": "FY27 CFO/PAT will improve above 0.90 as inventory absorption moderates.", "createdAt": "2026-08-03", "targetDate": "2027-05-31", "metric": "CFO divided by continuing PAT", "operator": ">", "target": 0.9, "probability": 55, "confidence": "low-medium", "status": "open", "outcome": "", "reviewedAt": "", "evidence": ["FY26 CFO/PAT 0.88", "FY26 inventory/biological-assets cash absorption ₹3,306 crore"] },
+    { "id": "ITC-P04", "claim": "Cigarette segment result margin will remain above 52% in FY27.", "createdAt": "2026-08-03", "targetDate": "2027-05-31", "metric": "cigarette segment result margin", "operator": ">", "target": 52, "probability": 55, "confidence": "low-medium", "status": "open", "outcome": "", "reviewedAt": "", "evidence": ["FY26 54.79% vs FY25 58.76%", "February 2026 tax change"] }
+  ]
+}

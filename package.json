@@ -1,0 +1,17 @@
+{
+  "name": "investment-intelligence-system",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "A local-first personal investment knowledge and company evaluation workspace.",
+  "scripts": {
+    "thesis": "node scripts/thesis.mjs",
+    "dev": "node scripts/dev.mjs",
+    "start": "node scripts/dev.mjs",
+    "test": "node --test",
+    "check": "node --check scripts/thesis.mjs && node --check src/app.js && node --check src/data/seed.js && node --check src/lib/engine.js && node --check src/lib/evidence.js && node --check src/lib/memory.js && npm test"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

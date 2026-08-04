@@ -1,0 +1,909 @@
+{
+  "company": {
+    "name": "ITC Limited",
+    "ticker": "ITC",
+    "exchange": "NSE",
+    "sector": "Diversified Consumer",
+    "industry": "FMCG, Tobacco, Agri, Paperboards and IT Services",
+    "website": "https://itcportal.com",
+    "analysisDate": "2026-08-03",
+    "currency": "INR",
+    "units": "crore"
+  },
+  "ticker": "ITC",
+  "validation": {
+    "errors": [],
+    "warnings": [
+      "peers.csv: no peer evidence supplied"
+    ]
+  },
+  "investmentMemo": {
+    "investmentStatus": "WATCH - INVESTABLE BUSINESS, DECISION NOT COMPLETE",
+    "primaryConcern": "About 82% of segment profit still comes from cigarettes just as February 2026 taxation sharply increased; legal-volume elasticity is unproven.",
+    "highestPriority": "Track FY27 cigarette volumes/margins and verify whether FMCG-Others margin expansion can offset tobacco concentration.",
+    "businessQuality": "High cash generation, powerful distribution and brands; quality is reduced by tobacco regulation and conglomerate complexity.",
+    "customerEconomics": "Repeat demand and brand habit are strongest in cigarettes; other FMCG has broad repeat demand but low switching costs and high competition.",
+    "moatAndReplicability": "Distribution, brand portfolio, agri sourcing and integrated capabilities are difficult to reproduce together; replication time and cost are not precisely evidenced.",
+    "industryPosition": "Leadership in legal cigarettes and selected FMCG categories; full independent share history is missing.",
+    "managementQuality": "Strong disclosure, balance-sheet discipline and execution; non-cigarette capital-allocation returns require longer evidence.",
+    "capitalStructure": "Gross borrowings ₹2,186 crore versus more than ₹32,000 crore of current/non-current investments plus bank balances; economically net cash.",
+    "valuation": {
+      "price": 285.7,
+      "date": "2026-07-27",
+      "method": "Market reference plus FY26 continuing EPS/book/dividend/FCF",
+      "assumptions": [
+        "Approximate market capitalisation ₹3.58 trillion",
+        "FY26 continuing EPS ₹16.52",
+        "FY26 dividend ₹14.50",
+        "No SOTP premium assigned"
+      ],
+      "range": "Reference P/E about 17.3x, P/B about 5.0x, dividend yield about 5.1%, approximate FCF yield 4.5%",
+      "marginOfSafety": "Not established; cigarette tax elasticity and sum-of-parts value are unresolved"
+    },
+    "investmentCase": [
+      "Cigarette franchise produces exceptional segment margins and finances dividends and diversification.",
+      "Distribution reaches nearly seven million outlets, with over 40% direct service and an 800,000-outlet digital retailer platform.",
+      "FMCG-Others grew revenue 10.5% and segment result 13.9%, demonstrating gradual operating leverage.",
+      "Balance sheet is net cash and FY26 approximate free cash flow was ₹16,281 crore.",
+      "Reference valuation offers a high dividend yield relative to many branded-consumer companies."
+    ],
+    "rejectionCase": [
+      "Cigarettes generate about 82% of segment profit; diversification is much greater in revenue than in economics.",
+      "February 2026 taxation creates material legal-volume, pricing and illicit-trade risk.",
+      "Continuing PAT grew only 4.9% against revenue growth of 10.2%, while cigarette and paper margins weakened.",
+      "Inventory absorbed ₹3,306 crore and CFO remained below continuing PAT.",
+      "High dividend payout limits internally retained capital; acquired and incubated FMCG businesses must prove adequate incremental returns."
+    ],
+    "neutralAssessment": "ITC is a strong cash-generative consumer platform whose present economics remain tobacco-led. The reference valuation is not obviously extreme, but the investment debate turns on post-tax-hike cigarette elasticity and whether FMCG-Others can compound profit faster than the cigarette franchise without destroying returns.",
+    "unknowns": [
+      "FY27 legal cigarette volume elasticity",
+      "Independent market-share changes",
+      "Acquisition-level ROIC",
+      "Maintenance versus growth capex",
+      "Segment-level free cash flow",
+      "Fully developed sum-of-parts valuation"
+    ],
+    "criticalUnknowns": [
+      "Post-February-2026 cigarette volume and margin response",
+      "Sustainable FMCG-Others EBITDA margin",
+      "Reason for and reversibility of ₹3,306 crore inventory build",
+      "Independent evidence of category-share gains",
+      "Incremental ROCE on acquisitions and FMCG capex"
+    ],
+    "decisionQuestions": [
+      "Can cigarette pricing offset the tax increase without accelerating illicit substitution?",
+      "Will FMCG-Others profit compound above 12% while preserving brand investment?",
+      "Is Paperboards' margin decline cyclical or structural?",
+      "Does inventory normalise into FY27 cash flow?",
+      "What SOTP value remains after applying a regulatory discount to cigarettes?",
+      "Do new acquisitions earn above the cost of capital within three to five years?"
+    ],
+    "monitoringItems": [
+      "Quarterly cigarette net revenue, volume commentary and segment margin",
+      "FMCG-Others revenue, segment result and margin",
+      "Inventory and CFO/PAT",
+      "Paperboards segment margin",
+      "Acquisition ARR and profitability",
+      "Dividend payout and net cash",
+      "Tax and illicit-trade enforcement developments"
+    ],
+    "valuationRequirement": "Require a scenario-based SOTP with a regulatory haircut, not a single consolidated P/E.",
+    "decisionReadiness": "MEDIUM - business understood, but tax response and independent peer evidence are incomplete.",
+    "finalView": "WATCH. Quality and cash returns are evident; purchase attractiveness depends on price and evidence that post-tax-hike cigarette economics remain resilient while FMCG-Others scales profitably."
+  },
+  "researchConfidence": {
+    "financials": {
+      "coverage": 100,
+      "evidenceQuality": 0,
+      "confidence": 70,
+      "satisfied": 9,
+      "required": 9
+    },
+    "governance": {
+      "coverage": 67,
+      "evidenceQuality": 71,
+      "confidence": 68,
+      "satisfied": 4,
+      "required": 6
+    },
+    "capitalStructure": {
+      "coverage": 60,
+      "evidenceQuality": 0,
+      "confidence": 42,
+      "satisfied": 3,
+      "required": 5
+    },
+    "businessQuality": {
+      "coverage": 100,
+      "evidenceQuality": 77,
+      "confidence": 93,
+      "satisfied": 6,
+      "required": 6
+    },
+    "valuation": {
+      "coverage": 100,
+      "evidenceQuality": 0,
+      "confidence": 70,
+      "satisfied": 6,
+      "required": 6
+    }
+  },
+  "predictionSummary": {
+    "total": 4,
+    "open": 4,
+    "correct": 0,
+    "incorrect": 0,
+    "partial": 0,
+    "unresolved": 0,
+    "due": [],
+    "scored": 0,
+    "accuracy": null
+  },
+  "predictions": [
+    {
+      "id": "ITC-P01",
+      "claim": "FMCG-Others segment result margin will be at least 7.5% in FY27.",
+      "createdAt": "2026-08-03",
+      "targetDate": "2027-05-31",
+      "metric": "FMCG-Others segment result margin",
+      "operator": ">=",
+      "target": 7.5,
+      "probability": 60,
+      "confidence": "medium",
+      "status": "open",
+      "outcome": "",
+      "reviewedAt": "",
+      "evidence": [
+        "FY25 7.23%; FY26 7.45%"
+      ]
+    },
+    {
+      "id": "ITC-P02",
+      "claim": "FY27 continuing PAT will grow year-on-year despite the cigarette tax reset.",
+      "createdAt": "2026-08-03",
+      "targetDate": "2027-05-31",
+      "metric": "continuing PAT growth",
+      "operator": ">",
+      "target": 0,
+      "probability": 60,
+      "confidence": "low-medium",
+      "status": "open",
+      "outcome": "",
+      "reviewedAt": "",
+      "evidence": [
+        "FY26 continuing PAT ₹21,018 crore",
+        "Pricing power but unknown elasticity"
+      ]
+    },
+    {
+      "id": "ITC-P03",
+      "claim": "FY27 CFO/PAT will improve above 0.90 as inventory absorption moderates.",
+      "createdAt": "2026-08-03",
+      "targetDate": "2027-05-31",
+      "metric": "CFO divided by continuing PAT",
+      "operator": ">",
+      "target": 0.9,
+      "probability": 55,
+      "confidence": "low-medium",
+      "status": "open",
+      "outcome": "",
+      "reviewedAt": "",
+      "evidence": [
+        "FY26 CFO/PAT 0.88",
+        "FY26 inventory/biological-assets cash absorption ₹3,306 crore"
+      ]
+    },
+    {
+      "id": "ITC-P04",
+      "claim": "Cigarette segment result margin will remain above 52% in FY27.",
+      "createdAt": "2026-08-03",
+      "targetDate": "2027-05-31",
+      "metric": "cigarette segment result margin",
+      "operator": ">",
+      "target": 52,
+      "probability": 55,
+      "confidence": "low-medium",
+      "status": "open",
+      "outcome": "",
+      "reviewedAt": "",
+      "evidence": [
+        "FY26 54.79% vs FY25 58.76%",
+        "February 2026 tax change"
+      ]
+    }
+  ],
+  "contradictions": [
+    {
+      "id": "ITC-C01",
+      "topic": "diversification",
+      "claimA": {
+        "text": "ITC presents itself as a diversified consumer platform with 30-plus brands and very broad household reach.",
+        "type": "management_claim",
+        "source": "ITC Report and Accounts 2026, pp.3-5, 74-87",
+        "date": "2026-03-31"
+      },
+      "claimB": {
+        "text": "Cigarettes contributed approximately 82% of FY26 segment result before unallocated items.",
+        "type": "audited_fact",
+        "source": "ITC Report and Accounts 2026, p.325",
+        "date": "2026-03-31"
+      },
+      "assessment": "narrative is broader than current profit economics",
+      "materiality": "very high",
+      "note": "Revenue diversification is genuine, but profit diversification remains limited.",
+      "monitor": "FMCG-Others share of segment profit and margin"
+    },
+    {
+      "id": "ITC-C02",
+      "topic": "growth quality",
+      "claimA": {
+        "text": "FY26 continuing revenue grew 10.2% and the portfolio reported broad-based operating momentum.",
+        "type": "management_claim",
+        "source": "ITC FY26 results and annual report",
+        "date": "2026-03-31"
+      },
+      "claimB": {
+        "text": "Continuing PAT grew 4.9%; cigarette margin contracted and Paperboards segment result fell 14.6%.",
+        "type": "audited_fact",
+        "source": "ITC Report and Accounts 2026, pp.253, 325",
+        "date": "2026-03-31"
+      },
+      "assessment": "revenue growth did not convert proportionately into profit",
+      "materiality": "high",
+      "note": "Input cost and segment-mix pressure matter more than headline revenue.",
+      "monitor": "segment margins and continuing PAT growth"
+    },
+    {
+      "id": "ITC-C03",
+      "topic": "cash generation",
+      "claimA": {
+        "text": "ITC remains strongly cash generative and returned ₹18,271 crore in dividends during FY26.",
+        "type": "audited_fact",
+        "source": "ITC Report and Accounts 2026, pp.256-257",
+        "date": "2026-03-31"
+      },
+      "claimB": {
+        "text": "CFO was below continuing PAT and inventory/biological assets absorbed ₹3,306 crore of cash.",
+        "type": "audited_fact",
+        "source": "ITC Report and Accounts 2026, p.256",
+        "date": "2026-03-31"
+      },
+      "assessment": "strong absolute cash generation with a working-capital qualification",
+      "materiality": "medium",
+      "note": "Not a contradiction in accounting terms; it prevents an unqualified 'excellent cash conversion' conclusion.",
+      "monitor": "inventory reversal and CFO/PAT"
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2017-03-31",
+      "category": "financial",
+      "event": "Standalone gross revenue ₹55,002 crore and PAT ₹10,201 crore establish the ten-year comparison base.",
+      "significance": "Over FY17-FY26, standalone PAT approximately doubled despite portfolio changes.",
+      "source": "ITC Report and Accounts 2026, pp.346-347",
+      "confidence": "high"
+    },
+    {
+      "date": "2024-01-01",
+      "category": "portfolio",
+      "event": "ITC's newer digital-first and organic portfolio continued scaling through brands such as Yoga Bar, Mother Sparsh and others.",
+      "significance": "Tests whether diversification can produce attractive incremental returns, not merely revenue.",
+      "source": "ITC Report and Accounts 2026, pp.74-75",
+      "confidence": "medium"
+    },
+    {
+      "date": "2025-01-01",
+      "category": "corporate_action",
+      "event": "Hotels business was demerged; ITC retained a 39.85% associate interest.",
+      "significance": "FY25 total PAT contains a large discontinued-operation gain and is not comparable with FY26 total PAT.",
+      "source": "ITC Report and Accounts 2026, financial statements and notes",
+      "confidence": "high"
+    },
+    {
+      "date": "2026-02-01",
+      "category": "regulation",
+      "event": "Cigarette taxation increased materially, including a shift to 40% GST on retail price and higher excise burden.",
+      "significance": "The most important new variable for legal-industry volume, pricing and margin in FY27.",
+      "source": "ITC Report and Accounts 2026, pp.69-73; ITC FY26 results statement",
+      "confidence": "high"
+    },
+    {
+      "date": "2026-03-31",
+      "category": "financial",
+      "event": "Continuing revenue reached ₹89,913 crore, continuing PAT ₹21,018 crore and CFO ₹18,464 crore.",
+      "significance": "Revenue outgrew profit and CFO; inventory absorption qualified cash conversion.",
+      "source": "ITC Report and Accounts 2026, pp.253, 256",
+      "confidence": "high"
+    },
+    {
+      "date": "2026-03-31",
+      "category": "business",
+      "event": "FMCG-Others revenue grew 10.5% and segment result 13.9%, while cigarettes still supplied about 82% of segment result.",
+      "significance": "Diversification is progressing but has not yet changed the group's core profit engine.",
+      "source": "ITC Report and Accounts 2026, p.325",
+      "confidence": "high"
+    },
+    {
+      "date": "2027-05-31",
+      "category": "review",
+      "event": "Review FY27 predictions and post-tax cigarette performance.",
+      "significance": "First decisive test of the new tax regime, inventory normalisation and FMCG margin trajectory.",
+      "source": "Research protocol",
+      "confidence": "planned"
+    }
+  ],
+  "peerIntelligence": {
+    "rows": [],
+    "rankings": {},
+    "sourced": 0,
+    "unsourced": []
+  },
+  "customerMap": [
+    {
+      "group": "Adult legal-cigarette consumers",
+      "payer": "Consumer",
+      "user": "Consumer",
+      "purchaseInfluencer": "Brand, availability, price, product format and regulation",
+      "reasonToBuy": "Brand preference, nicotine consumption and product attributes",
+      "switchingTrigger": "Tax-led price increase, competing legal brand, illicit product or other tobacco format",
+      "switchingCost": "low product switching cost but potentially high brand habit",
+      "priceSensitivity": "medium-high at sharp tax changes",
+      "repeatDemand": "high",
+      "concentration": "broad consumer base",
+      "channelPower": "fragmented retail, but availability is important",
+      "evidence": [
+        "PDF pp.69-73"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "group": "Household FMCG consumers",
+      "payer": "Household consumer",
+      "user": "Household members",
+      "purchaseInfluencer": "Brand, retailer/platform, price, category habits and advertising",
+      "reasonToBuy": "Convenience, trust, taste, quality and availability",
+      "switchingTrigger": "Price/value gap, availability, innovation or competing promotion",
+      "switchingCost": "generally low",
+      "priceSensitivity": "category-dependent",
+      "repeatDemand": "high for staples and foods",
+      "concentration": "reaches nearly 280 million households",
+      "channelPower": "rising in modern trade, e-commerce and quick commerce",
+      "evidence": [
+        "PDF pp.74-87"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "group": "Retailers and digital commerce platforms",
+      "payer": "Trade customer/consumer intermediary",
+      "user": "Retail outlet or platform",
+      "purchaseInfluencer": "Margins, turnover, service, availability and consumer pull",
+      "reasonToBuy": "Large brand portfolio and distribution support",
+      "switchingTrigger": "Poor trade economics, service or consumer demand",
+      "switchingCost": "low-moderate",
+      "priceSensitivity": "high on trade terms",
+      "repeatDemand": "high",
+      "concentration": "nearly seven million outlets; over 40% directly serviced",
+      "channelPower": "fragmented general trade; stronger NewGen platforms",
+      "evidence": [
+        "PDF pp.86-87"
+      ],
+      "confidence": "high"
+    },
+    {
+      "group": "Agri and paper/packaging B2B customers",
+      "payer": "Domestic/export business customer",
+      "user": "Manufacturer, converter or institutional buyer",
+      "purchaseInfluencer": "Quality, specification, traceability, cost and supply reliability",
+      "reasonToBuy": "Integrated sourcing, scale and quality",
+      "switchingTrigger": "Price, specification failure or alternative supply",
+      "switchingCost": "medium for qualified/specified inputs",
+      "priceSensitivity": "high",
+      "repeatDemand": "recurring but cyclical",
+      "concentration": "not disclosed",
+      "channelPower": "customer-specific",
+      "evidence": [
+        "PDF pp.88-111"
+      ],
+      "confidence": "low-medium"
+    }
+  ],
+  "moatReplicability": {
+    "brand": {
+      "assessment": "strong but uneven across categories",
+      "economicMechanism": "Consumer pull supports repeat purchase, premium mix and adjacency extension.",
+      "beneficiary": "Cigarettes and branded FMCG",
+      "evidence": [
+        "30+ mother brands; ₹37,000 crore consumer spend; cited category positions, PDF pp.74-76"
+      ],
+      "counterEvidence": [
+        "FMCG categories have low switching costs and sustained competitive marketing is required"
+      ],
+      "replicationRequirements": [
+        "Long-duration brand spend",
+        "product quality",
+        "innovation",
+        "consistent availability"
+      ],
+      "replicationTime": "unknown",
+      "replicationCost": "unknown",
+      "replicationFailureReasons": [
+        "Trust and habitual demand cannot be purchased instantly"
+      ],
+      "observedDurability": "high in cigarettes; mixed/strengthening in other FMCG",
+      "confidence": "medium"
+    },
+    "distribution": {
+      "assessment": "strong",
+      "economicMechanism": "Availability, freshness, launch velocity and retailer data improve sales and lower route-to-market friction.",
+      "beneficiary": "FMCG portfolio",
+      "evidence": [
+        "Nearly 7 million outlets; >40% direct service; UNNATI >800,000 outlets; PDF pp.86-87"
+      ],
+      "counterEvidence": [
+        "Modern trade and quick-commerce platforms can gain bargaining power"
+      ],
+      "replicationRequirements": [
+        "Salesforce",
+        "warehouses",
+        "retailer relationships",
+        "technology",
+        "working capital",
+        "multi-channel execution"
+      ],
+      "replicationTime": "long but not quantified",
+      "replicationCost": "material but not estimable",
+      "replicationFailureReasons": [
+        "Operational complexity and relationship density"
+      ],
+      "observedDurability": "multi-decade",
+      "confidence": "high"
+    },
+    "switchingCosts": {
+      "assessment": "low at consumer product level",
+      "economicMechanism": "Habit and trust reduce switching but do not contractually lock consumers.",
+      "beneficiary": "Cigarettes more than packaged FMCG",
+      "evidence": [
+        "Repeat categories and established trademarks"
+      ],
+      "counterEvidence": [
+        "Competitors can discount, innovate and advertise"
+      ],
+      "replicationRequirements": [],
+      "replicationTime": "unknown",
+      "replicationCost": "unknown",
+      "replicationFailureReasons": [],
+      "observedDurability": "brand-dependent",
+      "confidence": "medium"
+    },
+    "scaleOrCost": {
+      "assessment": "strong",
+      "economicMechanism": "Integrated agri sourcing, packaging, manufacturing, R&D and distribution create procurement and utilisation advantages.",
+      "beneficiary": "Cigarettes, foods, paper and agri",
+      "evidence": [
+        "Integrated seed-to-smoke and agri-to-food value chains; distributed manufacturing; PDF pp.69-87, 112"
+      ],
+      "counterEvidence": [
+        "Scale also creates complexity and conglomerate capital-allocation risk"
+      ],
+      "replicationRequirements": [
+        "Farm linkages",
+        "factories",
+        "R&D",
+        "packaging",
+        "logistics",
+        "quality systems"
+      ],
+      "replicationTime": "long but not quantified",
+      "replicationCost": "material but not estimable",
+      "replicationFailureReasons": [
+        "Coordination across multiple capabilities"
+      ],
+      "observedDurability": "multi-decade",
+      "confidence": "medium-high"
+    },
+    "technologyOrPatents": {
+      "assessment": "supporting advantage, not independently decisive",
+      "economicMechanism": "R&D and digital tools speed innovation, planning and execution.",
+      "beneficiary": "FMCG and agriculture",
+      "evidence": [
+        "LSTC, AI/ML, ITCMAARS and digital supply-chain disclosures"
+      ],
+      "counterEvidence": [
+        "No evidence that technology alone prevents competition"
+      ],
+      "replicationRequirements": [
+        "Talent",
+        "data",
+        "R&D platforms"
+      ],
+      "replicationTime": "unknown",
+      "replicationCost": "unknown",
+      "replicationFailureReasons": [],
+      "observedDurability": "developing",
+      "confidence": "medium"
+    },
+    "networkEffects": {
+      "assessment": "limited",
+      "economicMechanism": "Retailer and farmer platforms improve data and participation but do not show a classic self-reinforcing network moat.",
+      "beneficiary": "Distribution and Agri",
+      "evidence": [
+        "UNNATI and ITCMAARS scale"
+      ],
+      "counterEvidence": [
+        "Participants can multi-home"
+      ],
+      "replicationRequirements": [],
+      "replicationTime": "unknown",
+      "replicationCost": "unknown",
+      "replicationFailureReasons": [],
+      "observedDurability": "unproven",
+      "confidence": "low-medium"
+    },
+    "regulatoryAdvantage": {
+      "assessment": "mixed: barriers protect incumbency but taxation is the largest risk",
+      "economicMechanism": "Compliance and legal manufacturing scale favour incumbents, while high taxes create illicit substitution.",
+      "beneficiary": "Legal cigarette franchise",
+      "evidence": [
+        "Tax/regulatory discussion, PDF pp.69-73"
+      ],
+      "counterEvidence": [
+        "February 2026 tax increase may reduce legal volumes and margins"
+      ],
+      "replicationRequirements": [
+        "Compliance, licences, manufacturing and distribution"
+      ],
+      "replicationTime": "unknown",
+      "replicationCost": "unknown",
+      "replicationFailureReasons": [],
+      "observedDurability": "policy-dependent",
+      "confidence": "high"
+    }
+  },
+  "secondOrderEffects": [
+    {
+      "trigger": "Sharp cigarette tax increase from February 2026",
+      "directEffect": "Higher consumer prices and possible margin/volume pressure.",
+      "competitorResponse": "Legal competitors reprice and reconfigure packs; illicit sellers gain tax-arbitrage room.",
+      "customerResponse": "Down-trading, switching formats or illicit purchases may rise.",
+      "channelResponse": "Retailers may allocate more attention to faster-moving or higher-margin alternatives.",
+      "capitalAllocationResponse": "ITC may intensify portfolio engineering and accelerate non-cigarette growth.",
+      "longTermEquilibrium": "Legal-industry profit depends on enforcement, pricing discipline and volume elasticity.",
+      "evidence": [
+        "PDF pp.69-73; official FY26 results statement"
+      ],
+      "confidence": "high"
+    },
+    {
+      "trigger": "Commodity and fuel inflation",
+      "directEffect": "FMCG and paper margins compress before pricing actions.",
+      "competitorResponse": "Peers may raise prices, shrink packs or increase promotions.",
+      "customerResponse": "Consumers may down-trade or reduce discretionary purchases.",
+      "channelResponse": "Trade may demand higher margins or favour faster-turning products.",
+      "capitalAllocationResponse": "More value engineering, local sourcing and supply-chain investment.",
+      "longTermEquilibrium": "Scale advantages help, but industry pricing resets determine retained margin.",
+      "evidence": [
+        "PDF pp.74-76, 112"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "trigger": "FMCG channel shifts toward modern trade and quick commerce",
+      "directEffect": "Faster growth and premium assortment opportunities.",
+      "competitorResponse": "Higher digital advertising and platform-specific launches.",
+      "customerResponse": "Convenience increases experimentation and switching.",
+      "channelResponse": "Large platforms gain bargaining and data power.",
+      "capitalAllocationResponse": "ITC invests in digital-first brands, analytics and agile fulfilment.",
+      "longTermEquilibrium": "Distribution remains valuable but bargaining power may migrate toward platforms.",
+      "evidence": [
+        "PDF pp.86-87"
+      ],
+      "confidence": "medium-high"
+    }
+  ],
+  "management": {
+    "operatingExecution": {
+      "assessment": "strong but segment-divergent",
+      "evidence": [
+        "FY26 continuing revenue +10.2%, PAT +4.9%, CFO +4.8%; FMCG-Others profit +13.9%; Paper profit -14.6%, PDF pp.253, 256, 325"
+      ],
+      "confidence": "high"
+    },
+    "capitalAllocation": {
+      "assessment": "disciplined balance sheet and high distributions, but incremental returns on non-cigarette reinvestment need deeper proof",
+      "incrementalReturns": "FMCG-Others margin is improving from a low base; acquisitions have ₹1,350 crore ARR but return on purchase price is not disclosed",
+      "evidence": [
+        "₹18,168 crore FY26 dividends; hotels demerger; acquisitions; PDF pp.75, 253-257, 346"
+      ],
+      "confidence": "medium"
+    },
+    "guidanceAccuracy": {
+      "assessment": "missing multi-year promise-to-outcome dataset",
+      "evidence": [],
+      "confidence": "insufficient"
+    },
+    "acquisitionHistory": {
+      "assessment": "strategically coherent but return evidence immature",
+      "evidence": [
+        "24 Mantra, Yoga Bar, Mother Sparsh and Prasuma/Meatigo portfolio; PDF p.75"
+      ],
+      "confidence": "medium"
+    },
+    "innovationProductivity": {
+      "assessment": "high activity; economic conversion needs cohort evidence",
+      "evidence": [
+        "Nearly 100 launches and LSTC platform; PDF pp.74-87"
+      ],
+      "confidence": "medium"
+    },
+    "cultureAndRetention": {
+      "assessment": "insufficient for investment conclusion",
+      "evidence": [
+        "Annual-report human-capital narrative only"
+      ],
+      "confidence": "low"
+    },
+    "compensationAlignment": {
+      "assessment": "no material concern identified in supplied review, but full pay-versus-value analysis pending",
+      "evidence": [
+        "Corporate governance report"
+      ],
+      "confidence": "low-medium"
+    },
+    "minorityShareholderTreatment": {
+      "assessment": "strong cash distributions and transparent demerger; broader related-party review still required",
+      "evidence": [
+        "Dividend history and Hotels demerger disclosures"
+      ],
+      "confidence": "medium"
+    },
+    "succession": {
+      "assessment": "institutional management structure, but long-term CMD succession is not evaluated",
+      "evidence": [
+        "Board and governance disclosures"
+      ],
+      "confidence": "low-medium"
+    },
+    "disclosureQuality": {
+      "assessment": "strong",
+      "evidence": [
+        "Detailed segment reporting, risk discussion, ten-year history and unmodified audit opinion"
+      ],
+      "confidence": "high"
+    },
+    "responseToMistakes": {
+      "assessment": "insufficient evidence",
+      "evidence": [],
+      "confidence": "insufficient"
+    }
+  },
+  "risks": [
+    {
+      "risk": "Cigarette tax and illicit substitution",
+      "probability": 55,
+      "probabilityLabel": "more likely than not",
+      "impact": "very high",
+      "urgency": "immediate",
+      "timeHorizon": "FY27",
+      "detectability": "quarterly with imperfect volume disclosure",
+      "evidence": [
+        "February 2026 tax change",
+        "82% segment-profit concentration"
+      ],
+      "confidence": "high on exposure; medium on outcome",
+      "monitor": "Cigarette revenue, inferred volume, segment result and margin",
+      "monitorFrequency": "quarterly"
+    },
+    {
+      "risk": "FMCG diversification fails to earn adequate returns",
+      "probability": 40,
+      "probabilityLabel": "material",
+      "impact": "high",
+      "urgency": "medium",
+      "timeHorizon": "3-5 years",
+      "detectability": "segment margin and capital employed are only partial",
+      "evidence": [
+        "FY26 FMCG-Others margin 7.45%",
+        "Acquisition ARR disclosed without ROIC"
+      ],
+      "confidence": "medium",
+      "monitor": "FMCG margin, acquired-brand profitability and incremental ROCE",
+      "monitorFrequency": "half-yearly"
+    },
+    {
+      "risk": "Inventory and cash-conversion pressure",
+      "probability": 45,
+      "probabilityLabel": "material",
+      "impact": "medium",
+      "urgency": "high",
+      "timeHorizon": "12 months",
+      "detectability": "high",
+      "evidence": [
+        "₹3,306 crore FY26 inventory/biological-assets cash absorption"
+      ],
+      "confidence": "high",
+      "monitor": "Inventory days, working-capital cash flow and CFO/PAT",
+      "monitorFrequency": "quarterly"
+    },
+    {
+      "risk": "Paperboards margin remains structurally lower",
+      "probability": 45,
+      "probabilityLabel": "material",
+      "impact": "medium",
+      "urgency": "medium",
+      "timeHorizon": "1-3 years",
+      "detectability": "high",
+      "evidence": [
+        "FY26 segment result -14.6% despite revenue +4.8%"
+      ],
+      "confidence": "high",
+      "monitor": "Paper segment result margin and capacity utilisation",
+      "monitorFrequency": "quarterly"
+    }
+  ],
+  "metrics": {
+    "revenueCagr": 10.170649743826887,
+    "profitCagr": 4.899465824069815,
+    "cfo": 18464.31,
+    "cfoPat": 0.8791056889577836,
+    "debtEquity": 0.030151722654132754,
+    "interestCoverage": 330.1462956440061,
+    "roce": 38.84,
+    "years": 2,
+    "firstYear": 2025,
+    "latestYear": 2026
+  },
+  "score": {
+    "results": [
+      {
+        "ruleId": "long-term-mindset",
+        "result": "pass",
+        "weight": 8
+      },
+      {
+        "ruleId": "qual-and-quant",
+        "result": "pass",
+        "weight": 9
+      },
+      {
+        "ruleId": "understand-business",
+        "result": "investigate",
+        "weight": 10
+      },
+      {
+        "ruleId": "annual-report-primary",
+        "result": "pass",
+        "weight": 9
+      },
+      {
+        "ruleId": "mda-review",
+        "result": "pass",
+        "weight": 7
+      },
+      {
+        "ruleId": "consolidated-default",
+        "result": "pass",
+        "weight": 6
+      },
+      {
+        "ruleId": "roe-debt",
+        "result": "pass",
+        "weight": 10
+      },
+      {
+        "ruleId": "operating-cash",
+        "result": "pass",
+        "weight": 10
+      },
+      {
+        "ruleId": "working-capital",
+        "result": "investigate",
+        "weight": 8
+      },
+      {
+        "ruleId": "ratio-context",
+        "result": "investigate",
+        "weight": 9
+      },
+      {
+        "ruleId": "valuation-after-quality",
+        "result": "investigate",
+        "weight": 8
+      },
+      {
+        "ruleId": "valuation-caution",
+        "result": "pass",
+        "weight": 8
+      },
+      {
+        "ruleId": "checklist-evolves",
+        "result": "not_applicable",
+        "weight": 6
+      }
+    ],
+    "compatibility": 83,
+    "completeness": 94,
+    "evaluated": 12,
+    "total": 13
+  },
+  "proposed": [
+    {
+      "ruleId": "revenue-growth",
+      "result": "investigate"
+    },
+    {
+      "ruleId": "profit-growth",
+      "result": "fail"
+    },
+    {
+      "ruleId": "roce",
+      "result": "pass"
+    },
+    {
+      "ruleId": "debt-equity",
+      "result": "pass"
+    },
+    {
+      "ruleId": "interest-cover",
+      "result": "pass"
+    },
+    {
+      "ruleId": "cfo-pat",
+      "result": "investigate"
+    }
+  ],
+  "claimSummary": {
+    "partially_verified": 1,
+    "verified_by_company_records": 2,
+    "supported_by_cited_industry_data": 1,
+    "unverified_forward_risk": 1
+  },
+  "evidenceConfidence": [
+    [
+      "ITC reaches 28 crore Indian households and its new FMCG businesses have annual consumer spend above ₹37,000 crore.",
+      "management_claim",
+      "medium",
+      "partially_verified",
+      "ITC Report and Accounts 2026, pp.3-5"
+    ],
+    [
+      "ITC's distribution network reaches nearly seven million outlets, more than 40% directly, and UNNATI serves over 800,000 outlets.",
+      "management_claim",
+      "medium",
+      "verified_by_company_records",
+      "ITC Report and Accounts 2026, pp.86-87"
+    ],
+    [
+      "ITC holds leading positions in branded atta, bridge snacks, cream biscuits and notebooks.",
+      "management_claim",
+      "medium",
+      "supported_by_cited_industry_data",
+      "ITC Report and Accounts 2026, p.75, citing NielsenIQ and Kantar"
+    ],
+    [
+      "The sharp increase in cigarette taxation may strengthen illicit trade and disrupt legal-industry volumes.",
+      "management_claim",
+      "medium",
+      "unverified_forward_risk",
+      "ITC Report and Accounts 2026, pp.69-73; ITC FY26 results statement"
+    ],
+    [
+      "Recent digital-first and organic FMCG businesses have scaled to more than ₹1,350 crore annualised revenue.",
+      "management_claim",
+      "medium",
+      "verified_by_company_records",
+      "ITC Report and Accounts 2026, pp.74-75"
+    ]
+  ],
+  "researchMemory": {
+    "peers": 0,
+    "promises": 3,
+    "thesisBreakers": 5,
+    "rankedRisks": 4
+  },
+  "snapshot": {
+    "id": "20260803T181053-568Z",
+    "createdAt": "2026-08-03T18:10:53.568Z",
+    "sourceFolder": "input/ITC"
+  }
+}

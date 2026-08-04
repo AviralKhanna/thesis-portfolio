@@ -1,0 +1,13 @@
+{
+  "operatingExecution": { "assessment": "strong but segment-divergent", "evidence": ["FY26 continuing revenue +10.2%, PAT +4.9%, CFO +4.8%; FMCG-Others profit +13.9%; Paper profit -14.6%, PDF pp.253, 256, 325"], "confidence": "high" },
+  "capitalAllocation": { "assessment": "disciplined balance sheet and high distributions, but incremental returns on non-cigarette reinvestment need deeper proof", "incrementalReturns": "FMCG-Others margin is improving from a low base; acquisitions have ₹1,350 crore ARR but return on purchase price is not disclosed", "evidence": ["₹18,168 crore FY26 dividends; hotels demerger; acquisitions; PDF pp.75, 253-257, 346"], "confidence": "medium" },
+  "guidanceAccuracy": { "assessment": "missing multi-year promise-to-outcome dataset", "evidence": [], "confidence": "insufficient" },
+  "acquisitionHistory": { "assessment": "strategically coherent but return evidence immature", "evidence": ["24 Mantra, Yoga Bar, Mother Sparsh and Prasuma/Meatigo portfolio; PDF p.75"], "confidence": "medium" },
+  "innovationProductivity": { "assessment": "high activity; economic conversion needs cohort evidence", "evidence": ["Nearly 100 launches and LSTC platform; PDF pp.74-87"], "confidence": "medium" },
+  "cultureAndRetention": { "assessment": "insufficient for investment conclusion", "evidence": ["Annual-report human-capital narrative only"], "confidence": "low" },
+  "compensationAlignment": { "assessment": "no material concern identified in supplied review, but full pay-versus-value analysis pending", "evidence": ["Corporate governance report"], "confidence": "low-medium" },
+  "minorityShareholderTreatment": { "assessment": "strong cash distributions and transparent demerger; broader related-party review still required", "evidence": ["Dividend history and Hotels demerger disclosures"], "confidence": "medium" },
+  "succession": { "assessment": "institutional management structure, but long-term CMD succession is not evaluated", "evidence": ["Board and governance disclosures"], "confidence": "low-medium" },
+  "disclosureQuality": { "assessment": "strong", "evidence": ["Detailed segment reporting, risk discussion, ten-year history and unmodified audit opinion"], "confidence": "high" },
+  "responseToMistakes": { "assessment": "insufficient evidence", "evidence": [], "confidence": "insufficient" }
+}

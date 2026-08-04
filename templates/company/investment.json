@@ -1,0 +1,20 @@
+{
+  "investmentStatus": "NOT READY",
+  "primaryConcern": "insufficient evidence",
+  "highestPriority": "collect the highest-decision-impact missing evidence",
+  "businessQuality": "insufficient evidence",
+  "customerEconomics": "insufficient evidence",
+  "moatAndReplicability": "insufficient evidence",
+  "industryPosition": "insufficient evidence",
+  "managementQuality": "insufficient evidence",
+  "investmentCase": [],
+  "rejectionCase": [],
+  "neutralAssessment": "insufficient evidence",
+  "unknowns": [],
+  "criticalUnknowns": [],
+  "decisionQuestions": [],
+  "monitoringItems": [],
+  "valuationRequirement": "missing",
+  "decisionReadiness": "insufficient",
+  "finalView": "Research incomplete; not a recommendation."
+}

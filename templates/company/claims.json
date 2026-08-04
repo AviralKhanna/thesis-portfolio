@@ -1,0 +1,17 @@
+{
+  "claims": [
+    {
+      "id": "claim-1",
+      "claim": "",
+      "topic": "",
+      "date": "",
+      "type": "management_claim",
+      "status": "unverified",
+      "source": "",
+      "independentCorroboration": false,
+      "contradicted": false,
+      "stale": false,
+      "note": ""
+    }
+  ]
+}

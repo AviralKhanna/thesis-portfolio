@@ -1,0 +1,13 @@
+{
+  "operatingExecution": { "assessment": "missing", "evidence": [], "confidence": "insufficient" },
+  "capitalAllocation": { "assessment": "missing", "incrementalReturns": "unknown", "evidence": [], "confidence": "insufficient" },
+  "guidanceAccuracy": { "assessment": "missing", "evidence": [], "confidence": "insufficient" },
+  "acquisitionHistory": { "assessment": "missing", "evidence": [], "confidence": "insufficient" },
+  "innovationProductivity": { "assessment": "missing", "evidence": [], "confidence": "insufficient" },
+  "cultureAndRetention": { "assessment": "missing", "evidence": [], "confidence": "insufficient" },
+  "compensationAlignment": { "assessment": "missing", "evidence": [], "confidence": "insufficient" },
+  "minorityShareholderTreatment": { "assessment": "missing", "evidence": [], "confidence": "insufficient" },
+  "succession": { "assessment": "missing", "evidence": [], "confidence": "insufficient" },
+  "disclosureQuality": { "assessment": "missing", "evidence": [], "confidence": "insufficient" },
+  "responseToMistakes": { "assessment": "missing", "evidence": [], "confidence": "insufficient" }
+}

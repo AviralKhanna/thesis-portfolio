@@ -1,0 +1,36 @@
+{
+  "bull": {
+    "probability": 25,
+    "drivers": ["Cigarette price increases broadly offset tax without material legal-volume loss", "FMCG-Others sustains double-digit growth and margin expansion", "Inventory normalises and cash conversion improves", "Paperboards margin recovers"],
+    "milestones": ["Cigarette segment margin stabilises above 53%", "FMCG-Others margin exceeds 8%", "CFO/PAT exceeds 0.95", "Net cash remains substantial"],
+    "valuation": "A resilient tobacco franchise plus visible FMCG profit scaling could justify re-rating from the approximate 17.3x continuing P/E reference.",
+    "confidence": "low-medium"
+  },
+  "base": {
+    "probability": 50,
+    "drivers": ["Legal cigarettes grow modestly after an initial tax adjustment", "FMCG-Others compounds but remains a small profit contributor", "Paper and agri remain cyclical", "High dividends continue"],
+    "milestones": ["Continuing PAT grows mid-to-high single digits", "FMCG-Others margin improves gradually", "Inventory growth slows", "Dividend remains covered by free cash flow over a cycle"],
+    "valuation": "The reference valuation is reasonable but not a demonstrated margin of safety until SOTP and tax elasticity are resolved.",
+    "confidence": "medium"
+  },
+  "bear": {
+    "probability": 25,
+    "drivers": ["Tax-led price increases accelerate illicit substitution and legal-volume decline", "Cigarette margin compression persists", "FMCG growth requires structurally higher brand investment", "Inventory remains elevated and paper weakness persists"],
+    "milestones": ["Cigarette segment result declines year-on-year", "FMCG-Others margin falls below 7%", "CFO/PAT remains below 0.85", "Borrowing rises despite investment balances"],
+    "valuation": "A lower tobacco multiple and no premium for diversification could produce material downside even with dividends.",
+    "confidence": "low-medium"
+  },
+  "thesisBreakers": [
+    "Sustained decline in legal cigarette volumes accompanied by falling cigarette segment profit",
+    "FMCG-Others fails to expand margins despite continued double-digit revenue growth",
+    "Repeated CFO/PAT below 0.8 after inventory normalisation should have occurred",
+    "Material governance, audit or capital-allocation deterioration",
+    "Net cash is deployed into acquisitions that fail to earn the cost of capital"
+  ],
+  "rankedRisks": [
+    { "risk": "Cigarette tax and illicit substitution", "probability": 55, "probabilityLabel": "more likely than not", "impact": "very high", "urgency": "immediate", "timeHorizon": "FY27", "detectability": "quarterly with imperfect volume disclosure", "evidence": ["February 2026 tax change", "82% segment-profit concentration"], "confidence": "high on exposure; medium on outcome", "monitor": "Cigarette revenue, inferred volume, segment result and margin", "monitorFrequency": "quarterly" },
+    { "risk": "FMCG diversification fails to earn adequate returns", "probability": 40, "probabilityLabel": "material", "impact": "high", "urgency": "medium", "timeHorizon": "3-5 years", "detectability": "segment margin and capital employed are only partial", "evidence": ["FY26 FMCG-Others margin 7.45%", "Acquisition ARR disclosed without ROIC"], "confidence": "medium", "monitor": "FMCG margin, acquired-brand profitability and incremental ROCE", "monitorFrequency": "half-yearly" },
+    { "risk": "Inventory and cash-conversion pressure", "probability": 45, "probabilityLabel": "material", "impact": "medium", "urgency": "high", "timeHorizon": "12 months", "detectability": "high", "evidence": ["₹3,306 crore FY26 inventory/biological-assets cash absorption"], "confidence": "high", "monitor": "Inventory days, working-capital cash flow and CFO/PAT", "monitorFrequency": "quarterly" },
+    { "risk": "Paperboards margin remains structurally lower", "probability": 45, "probabilityLabel": "material", "impact": "medium", "urgency": "medium", "timeHorizon": "1-3 years", "detectability": "high", "evidence": ["FY26 segment result -14.6% despite revenue +4.8%"], "confidence": "high", "monitor": "Paper segment result margin and capacity utilisation", "monitorFrequency": "quarterly" }
+  ]
+}

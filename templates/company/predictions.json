@@ -1,0 +1,19 @@
+{
+  "predictions": [
+    {
+      "id": "prediction-1",
+      "claim": "",
+      "createdAt": "",
+      "targetDate": "",
+      "metric": "",
+      "operator": "",
+      "target": null,
+      "probability": null,
+      "confidence": "insufficient",
+      "status": "open",
+      "outcome": "",
+      "reviewedAt": "",
+      "evidence": []
+    }
+  ]
+}
