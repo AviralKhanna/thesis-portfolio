@@ -380,8 +380,8 @@ async function validateCommand(ticker) {
   if (result.errors.length) process.exitCode = 1;
 }
 
-async function reportCommand(ticker) {
-  const data = await loadCase(ticker); const output = buildReport(data);
+export async function writeReportOutput(data) {
+  const output = buildReport(data);
   if (output.json.validation.errors.length) throw new Error(`Cannot generate report: fix ${output.json.validation.errors.length} validation error(s) first.`);
   const target = join(reportRoot, data.ticker); const history = join(target, "history"); await mkdir(history, { recursive: true });
   const createdAt = new Date().toISOString();
@@ -392,6 +392,12 @@ async function reportCommand(ticker) {
   await writeFile(join(history, `${snapshotId}.json`), `${JSON.stringify(output.json, null, 2)}\n`, { flag: "wx" });
   await writeFile(join(target, "analysis.md"), output.markdown);
   await writeFile(join(target, "analysis.json"), `${JSON.stringify(output.json, null, 2)}\n`);
+  return { output, snapshotId };
+}
+
+async function reportCommand(ticker) {
+  const data = await loadCase(ticker);
+  const { output, snapshotId } = await writeReportOutput(data);
   console.log(`Generated reports/${data.ticker}/analysis.md\nArchived immutable snapshot ${snapshotId}\nCompatibility: ${output.json.score.compatibility ?? "insufficient evidence"}; completeness: ${output.json.score.completeness}%`);
 }
 

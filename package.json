@@ -6,10 +6,11 @@
   "description": "A local-first personal investment knowledge and company evaluation workspace.",
   "scripts": {
     "thesis": "node scripts/thesis.mjs",
-    "dev": "node scripts/dev.mjs",
-    "start": "node scripts/dev.mjs",
+    "portfolio:batch": "node scripts/portfolio-batch.mjs",
+    "dev": "node backend/server.mjs",
+    "start": "node backend/server.mjs",
     "test": "node --test",
-    "check": "node --check scripts/thesis.mjs && node --check src/app.js && node --check src/data/seed.js && node --check src/lib/engine.js && node --check src/lib/evidence.js && node --check src/lib/memory.js && npm test"
+    "check": "node --check backend/server.mjs && node --check scripts/thesis.mjs && node --check scripts/portfolio-batch.mjs && node --check frontend/src/app.js && node --check src/data/seed.js && node --check src/lib/engine.js && node --check src/lib/evidence.js && node --check src/lib/memory.js && node --check src/lib/portfolio-batch.js && npm test"
   },
   "engines": {
     "node": ">=20"

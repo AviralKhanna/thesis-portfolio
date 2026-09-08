@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Evidence-first portfolio intelligence across long-term, monthly, daily and intraday horizons." />
+    <title>Thesis — Portfolio Intelligence</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./enhancements.css" />
+    <style>.portfolio-select{max-width:175px;border:1px solid var(--line);background:#fff;color:var(--ink);border-radius:8px;padding:9px 28px 9px 10px;font-size:10px}</style>
+  </head>
+  <body>
+    <div class="shell">
+      <aside class="sidebar" id="sidebar">
+        <a class="brand" href="#portfolio"><span class="brand-mark">T</span><span>Thesis</span></a>
+        <div class="workspace-switcher"><span class="avatar">D</span><div><strong>Sample portfolio</strong><small>Public demo</small></div><span class="chevron">⌄</span></div>
+        <p class="nav-label">Intelligence</p>
+        <nav>
+          <a class="active" href="#portfolio" data-view="portfolio"><span>⌂</span>Portfolio</a>
+          <a href="#positions" data-view="positions"><span>◫</span>Positions <b>5</b></a>
+          <a href="#analysis" data-view="analysis"><span>⌁</span>Analysis</a>
+          <a href="#monitor" data-view="monitor"><span>◎</span>Monitor</a>
+        </nav>
+        <p class="nav-label">Research system</p>
+        <nav>
+          <a href="#evidence" data-view="evidence"><span>◇</span>Evidence room</a>
+          <a href="#rules" data-view="rules"><span>≡</span>My rules</a>
+          <a href="#journal" data-view="journal"><span>□</span>Decision journal</a>
+        </nav>
+        <div class="sidebar-footer">
+          <div class="privacy"><span>●</span><div><strong>Fictional sample data</strong><small>No personal holdings are published</small></div></div>
+          <button class="sidebar-button" id="settingsBtn">Settings <span>→</span></button>
+        </div>
+      </aside>
+
+      <main>
+        <header class="topbar">
+          <button class="menu-button" id="menuBtn" aria-label="Open navigation">☰</button>
+          <div class="breadcrumbs"><span>Portfolio</span><i>/</i><strong>Overview</strong></div>
+          <div class="top-actions"><select class="portfolio-select" id="portfolioSelect" aria-label="Saved portfolios"><option value="sample">Sample portfolio</option></select><button class="integration-status" id="marketDataStatusBtn" type="button"><i></i><span>Demo information</span></button><span class="as-of"><i></i> Demo data</span><button class="primary-button" id="uploadBtn">About this demo</button></div>
+        </header>
+        <div id="app"></div>
+      </main>
+    </div>
+
+    <div class="modal-backdrop" id="uploadModal" aria-hidden="true">
+      <section class="modal" role="dialog" aria-modal="true" aria-labelledby="uploadTitle">
+        <button class="modal-close" id="closeModal" aria-label="Close">×</button>
+        <span class="kicker">New analysis</span>
+        <h2 id="uploadTitle">Add your portfolio</h2>
+        <p>Upload a broker statement or start with a CSV. We separate portfolio facts, chart evidence, analyst inference and missing research.</p>
+        <label class="dropzone" for="portfolioFile"><span class="upload-icon">↑</span><strong>Drop your portfolio here</strong><small>CSV, XLS, XLSX or PDF · up to 20 MB</small><input id="portfolioFile" type="file" accept=".csv,.xls,.xlsx,.pdf" /></label>
+        <div class="secure-note"><span>◇</span><p><strong>Evidence-first analysis</strong><br />Nothing is presented as a recommendation when the supporting data is incomplete.</p></div>
+        <button class="primary-button wide" id="sampleBtn">Explore with sample portfolio</button>
+      </section>
+    </div>
+    <div class="modal-backdrop" id="settingsModal" aria-hidden="true">
+      <section class="modal integration-modal" role="dialog" aria-modal="true" aria-labelledby="settingsTitle">
+        <button class="modal-close" id="closeSettings" aria-label="Close">×</button>
+        <span class="kicker">Read-only market data</span>
+        <h2 id="settingsTitle">Market connections</h2>
+        <p>Connect a provider for raw quotes and OHLCV candles. This application contains no order-placement route.</p>
+        <section class="provider-panel preferred-provider">
+          <div class="provider-heading"><div><span class="provider-logo fyers-logo">F</span><div><strong>FYERS</strong><small>Recommended free alternative</small></div></div><span class="pill keep">Data only</span></div>
+          <div class="connection-state" id="fyersConnectionState"><i></i><div><strong>Checking connection…</strong><small>Daily OAuth session with market-data permissions.</small></div></div>
+          <form id="fyersForm">
+            <div class="field-pair"><label><span class="field-label">App ID</span><input id="fyersAppId" autocomplete="off" spellcheck="false" placeholder="XXXXXXXXX-100 or -200" required /></label><label><span class="field-label">Secret ID</span><input id="fyersSecretId" type="password" autocomplete="off" spellcheck="false" placeholder="Your app secret" required /></label></div>
+            <label class="field-label" for="fyersRedirectUri">Redirect URL to register in FYERS</label>
+            <div class="copy-field"><input id="fyersRedirectUri" readonly /><button type="button" id="copyFyersRedirect">Copy</button></div>
+            <p class="field-help">Create a data app in <a href="https://fyers.in/web/api-dashboard/user-apps" target="_blank" rel="noreferrer">FYERS API Dashboard ↗</a>. Enable only <strong>Historical Data</strong> and <strong>Quotes &amp; Market Data</strong>, and register the exact redirect URL above.</p>
+            <div class="modal-actions"><button class="secondary-button danger-button" id="disconnectFyers" type="button" hidden>Disconnect</button><button class="primary-button" id="connectFyers" type="submit">Save and sign in to FYERS</button></div>
+          </form>
+        </section>
+        <details class="provider-panel secondary-provider">
+          <summary><span><span class="provider-logo upstox-logo">U</span><strong>Upstox</strong></span><span id="upstoxSummaryStatus">Not connected</span></summary>
+          <div class="connection-state" id="upstoxConnectionState"><i></i><div><strong>Checking connection…</strong><small>Your token is never returned to the browser after saving.</small></div></div>
+          <form id="upstoxForm">
+            <label class="field-label" for="upstoxToken">Analytics Token</label>
+            <div class="token-field"><input id="upstoxToken" type="password" autocomplete="off" spellcheck="false" placeholder="Paste the complete token" required /><button type="button" id="toggleToken" aria-label="Show or hide token">Show</button></div>
+            <p class="field-help">Generate it in <a href="https://account.upstox.com/developer/apps" target="_blank" rel="noreferrer">Upstox Developer Apps ↗</a>.</p>
+            <div class="modal-actions"><button class="secondary-button danger-button" id="disconnectUpstox" type="button" hidden>Disconnect</button><button class="primary-button" id="connectUpstox" type="submit">Verify and connect</button></div>
+          </form>
+        </details>
+      </section>
+    </div>
+    <div class="toast" id="toast" role="status"></div>
+    <script type="module" src="./src/app.js"></script>
+  </body>
+</html>

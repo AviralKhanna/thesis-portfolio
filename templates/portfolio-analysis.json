@@ -1,0 +1,305 @@
+{
+  "schemaVersion": 1,
+  "report": {
+    "id": "report-<immutable-id>",
+    "portfolioId": "pf-<portfolio-id>",
+    "title": "Portfolio analysis",
+    "createdAt": "YYYY-MM-DDTHH:mm:ssZ",
+    "asOfDate": "YYYY-MM-DD",
+    "timezone": "Asia/Kolkata",
+    "currency": "INR",
+    "status": "complete | partial | blocked",
+    "disclaimer": "Research only. Compatibility is not a buy or sell recommendation."
+  },
+  "summary": {
+    "positions": 0,
+    "marketValue": null,
+    "recordedCost": null,
+    "unrealizedGain": null,
+    "unrealizedGainPct": null,
+    "winners": 0,
+    "losers": 0,
+    "topThreeWeight": null,
+    "topSixWeight": null,
+    "researchConfidence": 0,
+    "decisionReadiness": "ready | medium | medium_low | low | blocked",
+    "headline": "One-sentence neutral portfolio conclusion",
+    "assessment": "Short explanation of what drives return and risk."
+  },
+  "cards": [
+    {
+      "id": "portfolio_value",
+      "label": "Portfolio value",
+      "value": null,
+      "format": "currency",
+      "tone": "neutral | positive | warning | negative",
+      "detail": "Supporting text",
+      "sourceIds": ["source-1"]
+    }
+  ],
+  "dataQuality": {
+    "holdings": {
+      "score": 0,
+      "confidence": "none | low | medium | high",
+      "status": "missing | partial | complete",
+      "note": "What is present or missing"
+    },
+    "charts": {
+      "score": 0,
+      "confidence": "none | low | medium | high",
+      "status": "missing | partial | complete",
+      "note": "Chart coverage and limitations"
+    },
+    "fundamentals": {
+      "score": 0,
+      "confidence": "none | low | medium | high",
+      "status": "missing | partial | complete",
+      "note": "Fundamental coverage and limitations"
+    },
+    "valuation": {
+      "score": 0,
+      "confidence": "none | low | medium | high",
+      "status": "missing | partial | complete",
+      "note": "Valuation coverage and limitations"
+    }
+  },
+  "allocation": {
+    "groups": [
+      {
+        "id": "top_three",
+        "label": "Top 3 positions",
+        "detail": "Company A, Company B, Company C",
+        "weightPct": null,
+        "marketValue": null,
+        "color": "#1f7257"
+      }
+    ],
+    "sectorExposure": [
+      {
+        "sector": "Financials",
+        "weightPct": null,
+        "marketValue": null,
+        "positionCount": 0
+      }
+    ],
+    "riskClusters": [
+      {
+        "name": "Financials and fintech",
+        "weightPct": null,
+        "tickers": [],
+        "sharedRisk": "Funding, credit, regulation and valuation"
+      }
+    ]
+  },
+  "horizons": [
+    {
+      "id": "long_term",
+      "label": "Long term",
+      "title": "Clear user-facing conclusion",
+      "status": "constructive | neutral | weak | unavailable | blocked",
+      "confidence": "none | low | medium | high",
+      "summary": "Business, management, governance and valuation conclusion",
+      "supportingPoints": [],
+      "counterEvidence": [],
+      "requires": [],
+      "sourceIds": []
+    },
+    {
+      "id": "monthly",
+      "label": "Monthly",
+      "title": "Secular trend conclusion",
+      "status": "bullish | constructive | neutral | bearish | unavailable",
+      "confidence": "none | low | medium | high",
+      "summary": "Monthly structure and momentum",
+      "supportingPoints": [],
+      "counterEvidence": [],
+      "requires": [],
+      "sourceIds": []
+    },
+    {
+      "id": "weekly_daily",
+      "label": "Weekly / daily",
+      "title": "Position and swing conclusion",
+      "status": "bullish | constructive | neutral | bearish | unavailable",
+      "confidence": "none | low | medium | high",
+      "summary": "Weekly and daily relationship",
+      "supportingPoints": [],
+      "counterEvidence": [],
+      "requires": [],
+      "sourceIds": []
+    },
+    {
+      "id": "intraday",
+      "label": "Intraday",
+      "title": "Live setup conclusion",
+      "status": "valid_setup | no_trade | unavailable",
+      "confidence": "none | low | medium | high",
+      "summary": "Intraday conclusion or explicit no-trade reason",
+      "supportingPoints": [],
+      "counterEvidence": [],
+      "requires": ["5-minute chart", "15-minute chart", "bid/ask", "maximum rupee loss"],
+      "sourceIds": []
+    }
+  ],
+  "positions": [
+    {
+      "ticker": "TICKER",
+      "company": "Company name",
+      "isin": "INE000000000",
+      "exchange": "NSE | BSE",
+      "quantity": null,
+      "averageCost": null,
+      "currentPrice": null,
+      "marketValue": null,
+      "weightPct": null,
+      "unrealizedPnL": null,
+      "unrealizedPnLPct": null,
+      "outcomeStatus": "profit | loss | cost_invalid | corporate_action_pending",
+      "researchView": {
+        "bucket": "core | keep | review | reduce_review | exit_review | reconcile | insufficient_evidence",
+        "label": "Short label for UI pill",
+        "summary": "Neutral analyst assessment",
+        "decisionReadiness": "ready | medium | low | blocked",
+        "confidence": "none | low | medium | high"
+      },
+      "timeframes": {
+        "longTerm": {
+          "status": "constructive | neutral | weak | unavailable",
+          "summary": "Fundamental ownership assessment",
+          "confidence": "none | low | medium | high"
+        },
+        "monthly": {
+          "status": "bullish | constructive | neutral | bearish | unavailable",
+          "rsi": null,
+          "macd": "positive | negative | crossover_up | crossover_down | unavailable",
+          "summary": "Secular chart assessment",
+          "confidence": "none | low | medium | high"
+        },
+        "weekly": {
+          "status": "bullish | constructive | neutral | bearish | unavailable",
+          "rsi": null,
+          "macd": "positive | negative | crossover_up | crossover_down | unavailable",
+          "summary": "Position-trend assessment",
+          "confidence": "none | low | medium | high"
+        },
+        "daily": {
+          "status": "bullish | constructive | neutral | bearish | unavailable",
+          "rsi": null,
+          "macd": "positive | negative | crossover_up | crossover_down | unavailable",
+          "summary": "Swing assessment",
+          "confidence": "none | low | medium | high"
+        },
+        "intraday": {
+          "status": "valid_setup | no_trade | unavailable",
+          "summary": "Setup or missing-input reason",
+          "confidence": "none | low | medium | high"
+        }
+      },
+      "levels": {
+        "supports": [],
+        "resistances": [],
+        "entryTrigger": null,
+        "invalidation": null,
+        "stopLoss": null,
+        "targets": [],
+        "profitBooking": [],
+        "riskReward": null,
+        "note": "Levels are observational until live price and risk inputs are confirmed."
+      },
+      "fundamentals": {
+        "businessQuality": "unknown",
+        "moat": "unknown",
+        "management": "unknown",
+        "governance": "unknown",
+        "financialQuality": "unknown",
+        "valuation": "unknown",
+        "thesisBreakers": [],
+        "monitoringItems": []
+      },
+      "evidenceIds": [],
+      "unknowns": []
+    }
+  ],
+  "decisionBuckets": [
+    {
+      "id": "size_review",
+      "label": "Position-size review",
+      "tone": "warning",
+      "tickers": [],
+      "reason": "Why these positions belong together"
+    }
+  ],
+  "risks": [
+    {
+      "id": "risk-1",
+      "title": "Risk title",
+      "category": "concentration | business | governance | valuation | technical | liquidity | data_quality",
+      "impact": "low | medium | high | critical",
+      "likelihood": "unknown | low | medium | high",
+      "timeHorizon": "near | medium | long",
+      "detectability": "low | medium | high",
+      "affectedTickers": [],
+      "evidence": [],
+      "monitor": [],
+      "mitigation": "Research or portfolio-control response"
+    }
+  ],
+  "exceptions": [
+    {
+      "id": "exception-1",
+      "ticker": "TICKER",
+      "type": "cost_basis | corporate_action | missing_data | identity | stale_price",
+      "severity": "low | medium | high | blocking",
+      "message": "What is wrong",
+      "requiredResolution": "What must be supplied or corrected"
+    }
+  ],
+  "priorities": [
+    {
+      "rank": 1,
+      "title": "Priority action",
+      "reason": "Why it matters",
+      "tickers": [],
+      "type": "research | reconcile | monitor | sizing_review",
+      "status": "open | in_progress | complete"
+    }
+  ],
+  "monitoring": {
+    "portfolio": [],
+    "byTheme": [
+      {
+        "theme": "Banks and NBFCs",
+        "items": [],
+        "tickers": []
+      }
+    ]
+  },
+  "evidence": [
+    {
+      "id": "source-1",
+      "type": "audited_fact | regulatory_fact | external_fact | management_claim | analyst_inference | projection",
+      "title": "Evidence title",
+      "source": "Filename or URL",
+      "page": null,
+      "asOfDate": "YYYY-MM-DD",
+      "confidence": "low | medium | high",
+      "supports": [],
+      "contradicts": [],
+      "note": "Short audit note"
+    }
+  ],
+  "validation": {
+    "errors": [],
+    "warnings": [],
+    "missingInputs": [],
+    "blockedCalculations": [],
+    "generatedSections": []
+  },
+  "provenance": {
+    "portfolioSourceId": "source-portfolio",
+    "analysisRuleVersion": "1.0.0",
+    "generatedBy": "Thesis research engine",
+    "previousReportId": null,
+    "immutableSnapshot": true
+  }
+}

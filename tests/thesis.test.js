@@ -1,6 +1,6 @@
 import test from "node:test";
 import assert from "node:assert/strict";
-import { buildReport, cagr, deriveMetrics, normalizeTicker, parseCsv, validateCase } from "../scripts/thesis.mjs";
+import { buildReport, cagr, deriveMetrics, normalizeTicker, parseCsv, validateCase, writeReportOutput } from "../scripts/thesis.mjs";
 
 test("ticker normalization is safe for folder names", () => {
   assert.equal(normalizeTicker(" tcs "), "TCS");
@@ -63,4 +63,8 @@ test("report puts investment memo and customer economics before financial metric
   assert.ok(report.indexOf("## One-page investment memo") < report.indexOf("## Derived financial metrics"));
   assert.match(report, /Who pays/);
   assert.match(report, /Strongest reasons not to own/i);
+});
+
+test("report writer is exported for bounded portfolio workers", () => {
+  assert.equal(typeof writeReportOutput, "function");
 });

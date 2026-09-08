@@ -2,6 +2,8 @@
 
 This repository is a terminal-first personal investment research system. The web application is an optional viewer.
 
+When an Android phone, Android Studio, ADB, a phone screenshot, or a live chart is involved, read and follow `docs/android-stock-analysis-workflow.md` before collecting or analyzing evidence. Treat the phone as read-only by default. Analysis never authorizes tapping Buy/Sell, placing/modifying/cancelling orders, transferring funds, handling credentials/OTP, or changing phone state.
+
 When the user asks to analyze a stock:
 
 1. Identify the stock folder under `input/<TICKER>/`.
@@ -28,5 +30,10 @@ When the user asks to analyze a stock:
 22. Score predictions only after their target dates using correct = 1, partial = 0.5, and incorrect = 0. Keep unresolved outcomes visible and do not exclude failed predictions.
 23. Detect contradictions from explicit competing evidence, contradicted claims, and failed predictions. Absence of a detected contradiction is not proof of consistency when competing evidence is missing.
 24. Research-confidence percentages must be derived from structured coverage and evidence quality. They measure confidence in the research, not confidence in the investment.
+25. Keep long-term, monthly, daily/swing, and intraday conclusions separate. Do not let a lower-horizon signal silently override a higher-horizon thesis.
+26. For charts, require ticker, exchange, timestamp, timezone, timeframe, price scale, visible range, adjustment status, and indicator settings. Missing identity/time metadata means `insufficient input`, not a guessed live setup.
+27. Futures analysis requires the exact live contract, multiplier, expiry, price, margin, basis, liquidity, position and loss limit. Options analysis additionally requires the complete proposed-leg bid/ask/depth, IV/Greeks or calculation inputs, settlement/exercise rules and scenario horizon. The underlying chart alone is insufficient.
+28. Every actionable plan must define trigger, invalidation, stop method, position-size input, profit-booking/exit method, event/liquidity risk and no-trade conditions. A screenshot is a dated observation, not a live feed.
+29. Never infer risk capacity or permission to trade from balances, holdings, open positions or brokerage controls visible on the phone.
 
 Treat files in `input/` as user-owned evidence. Do not overwrite them during analysis unless explicitly asked. Generated artifacts belong in `reports/`.

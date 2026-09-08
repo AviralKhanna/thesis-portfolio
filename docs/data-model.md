@@ -64,6 +64,28 @@ Each report run stores immutable Markdown and JSON under `reports/<TICKER>/histo
 
 Area confidence is deterministic: 70% structured evidence coverage plus 30% recorded evidence quality. It measures the reliability and completeness of the research package, not whether the investment outcome is likely to be favorable.
 
+## Persisted portfolio
+
+Uploaded portfolios live under `storage/portfolios/<PORTFOLIO_ID>/`. The original file is preserved beside `portfolio.json`; user filenames are sanitized and opaque portfolio IDs prevent path collisions.
+
+`portfolio.json` contains `schemaVersion`, `id`, `name`, `createdAt`, `status`, `source`, `summary`, normalized `holdings`, and `analysis`. CSV and text-based broker XLS exports are parsed immediately. Binary XLSX and PDF files are preserved with `uploaded_needs_processing` status until an extractor is attached.
+
+## Portfolio presentation report
+
+Presentation-ready reports are JSON snapshots under `reports/PORTFOLIO/`. They separate:
+
+- `summary`: portfolio totals, concentration and readiness;
+- `dataQuality`: coverage and evidentiary confidence by area;
+- `concentration`: chart-ready allocation groups;
+- `horizons`: long-term, monthly, weekly/daily and intraday conclusions with requirements;
+- `exceptions`: cost-basis, corporate-action and validation blockers;
+- `holdings`: position outcome, weight, research view and timeframe regimes;
+- `narrative`: headline, neutral assessment, priorities and disclaimer.
+
+The UI consumes this JSON through `/api/portfolios/:id`; Markdown remains the human-readable immutable report rather than the rendering contract.
+
+The canonical rendering contract is `templates/portfolio-analysis.json`. New analysis generators should populate that structure rather than return free-form Markdown to the UI. Fields that are unsupported must remain `null`, `unknown`, `unavailable`, or appear under `validation.missingInputs`; they must not be invented.
+
 ## Management promise
 
 `date`, `topic`, `promise`, `targetDate`, `status`, `outcome`, `source`
